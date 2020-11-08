@@ -10,9 +10,11 @@ The following instructions will get you a copy of the project and all the settin
 ```
 $ git clone https://github.com/nayakmohit2580/URL-Shortener.git
 ```
-
-
 **2. Activate the server**
+
+Set MONGODB_URI environment variable
+
+**3. Activate the server**
 
 ```
 $ node app.js
