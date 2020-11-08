@@ -12,7 +12,7 @@ $ git clone https://github.com/nayakmohit2580/URL-Shortener.git
 ```
 **2. Activate the server**
 
-Set MONGODB_URI environment variable
+Set MONGODB_URI in App.js
 
 **3. Activate the server**
 

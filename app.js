@@ -10,7 +10,8 @@ const homeController = require('./controllers/home')
 const port = 3000
 
 // connect mongoose with database
-mongoose.connect(process.env.MONGODB_URI , { useNewUrlParser: true })
+var mongoURI = "<mongoURI>"
+mongoose.connect(mongoURI, { useNewUrlParser: true })
 
 const db = mongoose.connection
 
